@@ -1,0 +1,4 @@
+{
+  "builds": [{"src": "topfollow.html", "use": "@vercel/static"}],
+  "routes": [{"src": "/(.*)", "dest": "/topfollow.html"}]
+}
